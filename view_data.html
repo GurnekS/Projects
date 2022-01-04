@@ -1,0 +1,53 @@
+<!--SDEV117
+	Dataset assigment
+	Author: Gurnek Singh
+	11/16/21-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Title</title>
+		<link rel="stylesheet" href="css/style.css">
+
+		<script src="js/data.js"></script>
+	</head>
+	<body>
+		<div id="backGround">
+			<div id="contentContainer">
+				<div id="header">
+					<h1>Video game dataset</h1>
+					<p>This is a dataset about video games with information about their release date, sales and review
+						scores
+						there are <u id="dataLength"></u> elements in this page</p>
+				</div>
+				<div id="details">
+					<h2><span id="gameTitle"></span></h2>
+					<div>
+						<p>Year: <span id="year"></span></p>
+						<p>Console: <span id="console"></span></p>
+						<p>Used Price: $<span id="price"></span></p>
+						<p>Publisher: <span id="publisher"></span></p>
+						<p>Rating: <span id="rating"></span></p>
+						<p>Sales: <span id="sales"></span></p>
+					</div>
+
+				</div>
+				<div id="Facts">
+					<h2>Interesting facts about this video game dataset</h2>
+					<ul>
+						<li>The least popular game is <span id="lowestRatedGameTitle"></span> with a Review Score of
+							<span id="lowestReviewScore"></span></li>
+						<li>The Highest selling game was <span id="mostSoldGame"></span> with sales at
+							<span id="highestSellingGame"></span></li>
+						<li>Nintendo has Published <span id="publisherCount"></span> Games in this dataset</li>
+					</ul>
+					<button id="previous">Previous</button>
+					<button id="next">Next</button>
+				</div>
+			</div>
+
+		</div>
+		<script src="js/program.js"></script>
+<!--				<img src="gamespic.webp" height="1800" width="2400"/>-->
+	</body>
+</html>
